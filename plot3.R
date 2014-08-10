@@ -24,7 +24,7 @@ run.plot3 <- function() {
     lines(pc$Sub_metering_3 ~ pc$datetime, col="blue")
     
     ## Set up and display legend
-    legend('topright', lwd=1, col=c('black', 'red', 'blue'), bty='n',
+    legend('topright', lwd=1, col=c('black', 'red', 'blue'),
            legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'))
     
     ## close graphic device
